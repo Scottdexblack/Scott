@@ -20,7 +20,7 @@ if ($conn->query($sql))
 
 } else 
 {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error Message: " . $sql . "<br>" . $conn->error;
 
 }
 $conn->close(); 
